@@ -1,3 +1,21 @@
 p {
     color: red;
 }
+
+.titulo {
+    color:blueviolet;
+}
+#lista {
+    font-size: 20px;
+    border: 6px solid black;
+}
+
+ p{
+        font-family: 'Courier New', monospace;
+        }
+a{
+    color:red
+}
+a:hover {
+            color: blue;
+        }
