@@ -1,3 +1,121 @@
-body {
-    background-color: red;
+.hero-xmen {
+    background: radial-gradient(circle, #262bfa 40%, #fcef1f 100%);
+}
+
+.subtitulo-xmen {
+    color: #fcef1f;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.titulo-xmen {
+    width: 300px;
+}
+
+.caja-amarilla {
+    background-color: #dacf1f;
+    font-weight: bold;
+    color: black;
+}
+
+.caja-azul {
+    background-color: #0a0d81;
+    font-weight: bold;
+    color:white;
+}
+
+.caja-azul .title {
+    color:white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+}
+
+.caja-amarilla .title {
+    color:black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+.equipo-card {
+    background-color: #0a0d81;
+    color: white;
+}
+
+.equipo-card .equipo-titulo {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.equipo-card .content {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.subtitulo-clases {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+
+.mutantes-card {
+    background-color: #dacf1f;
+    color: white;
+}
+
+.mutantes-card .nombre-mutante {
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.mutantes-card .content {
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.boton-clase {
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.boton-omega {
+    background-color: #ef4444;
+    color: white;
+}
+
+.boton-alpha {
+    background-color: #ef4444;
+    color: white;
+}
+
+.boton-beta {
+    background-color: #ef4444;
+    color: white;
+}
+
+.boton-gamma {
+    background-color: #ef4444;
+    color: white;
+}
+
+.boton-epsilon {
+    background-color: #ef4444;
+    color: white;
 }
