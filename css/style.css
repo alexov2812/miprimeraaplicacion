@@ -119,3 +119,30 @@
     background-color: #ef4444;
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.batman-hero {
+ background: radial-gradient(circle, black 60%, #16366a 100%);
+}
+
+
+.batman-hero img {
+    max-height: 300px;
+    object-fit: contain;
+}
+
+
+.historia-box {
+    background-color: #16366a;
+}

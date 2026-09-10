@@ -1,0 +1,357 @@
+<html>
+    <head>
+    
+        <title>Mi primer implementacion con Bulma CSS </title>
+        <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+
+
+<meta charset="UTF-8">
+    <title>Imagen de Fondo</title>
+    <style>
+        body {
+            
+            background-image: url("batman-fondo.jpg"); 
+            
+            
+            background-repeat: no-repeat; 
+            
+           
+            background-size: cover; 
+            
+            
+            background-position: center; 
+            
+           
+            background-attachment: fixed; 
+        }
+    </style>
+
+
+
+    </head>
+
+    <body>
+            <nav class="navbar is-dark" role="navigation" aria-label="main navigation"> 
+                <div class="navbar-brand"> 
+                    <a class="navbar-item" href="#inicio-batman"> 
+                    BATMAN
+                </a>
+
+
+
+                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+
+
+        <div class="navbar-menu">
+            <div class="navbar-start">
+
+            <a class="navbar-item" href="#Historia">
+                Historia
+            </a>
+
+            <a class="navbar-item" href="#Estadisticas">
+                Estadisticas
+            </a>
+
+            <a class="navbar-item" href="#Atuendos">
+                Atuendos
+            </a>
+
+        </div>
+    </div>
+
+</nav>
+
+
+
+
+<section class="hero is-fullheight batman-hero"> 
+    <div class="hero-body"> 
+        <div class="container">
+            <div class="columns "> 
+                
+                
+                <div class="column is-half has-text-centered"> 
+                <figure class="image"> 
+                    <img src="batman-pp.jpg" alt="Batman"> 
+                    </figure> 
+                </div> 
+        
+
+                <div class="column is-half"> 
+            <p class="subtitle has-text-weight-bold has-text-white"> 
+            <blockquote>EL CABALLERO DE LA NOCHE</blockquote> 
+            </p> 
+            <h1 class="title is-1 has-text-white"> BATMAN </h1>
+            <h2 class="subtitle is-3 has-text-grey-lighter"> El héroe de Gotham </h2> 
+                    <div class="content has-text-grey-lighter"> 
+                        <p> Batman es uno de los superhéroes más conocidos de DC Comics. Bajo la identidad de Bruce Wayne, utiliza su inteligencia, habilidades físicas, tecnología y entrenamiento para combatir el crimen y proteger Gotham City. </p> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+</section> 
+</body>
+
+
+
+
+<section id="Historia" class="section"> 
+    <div class="container"> 
+        <h2 class="title is-2 has-text-white has-text-centered"> HISTORIA 
+        </h2> 
+        <div class="columns is-vcentered">
+
+            <div class="column is-5"> 
+                <figure class="image"> 
+                    <img src="batman historia.webp" alt="Historia de Batman"> 
+                </figure> 
+            </div>
+             
+        
+<div class="column is-6">
+
+    <div class="box historia-box">
+
+        <div class="content is-size-5 has-text-white">
+
+            <p>
+                Bruce Wayne quedó huérfano cuando era niño después de que sus
+                padres fueran asesinados en Gotham City. Este acontecimiento
+                marcó su vida y lo llevó a entrenarse física y mentalmente para
+                combatir el crimen.
+            </p>
+
+            <p>
+                Después de años de entrenamiento, Bruce regresó a Gotham y
+                adoptó la identidad de Batman. Desde entonces utiliza sus
+                habilidades, inteligencia y tecnología para proteger la ciudad
+                y enfrentarse a algunos de los criminales más peligrosos.
+            </p>
+
+            <p>
+                A pesar de no tener superpoderes, Batman se ha convertido en
+                uno de los héroes más importantes de Gotham y del universo
+                de DC Comics.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+           
+</section> 
+
+<section id="Estadisticas" class="section"> 
+    <div class="container"> 
+        <h2 class="title is-2 has-text-white has-text-centered"> 
+            ESTADISTICAS
+        </h2> 
+        <div class="columns is-vcentered"> 
+            <div class="column"> 
+                <p class="has-text-white has-text-weight-bold"> Inteligencia </p>
+                 <progress class="progress is-info" value="95" max="100"> 95% </progress> 
+
+                <p class="has-text-white has-text-weight-bold"> Combate cuerpo a cuerpo </p> 
+                 <progress class="progress is-info" value="98" max="100"> 98% </progress> 
+
+                 <p class="has-text-white has-text-weight-bold"> Velocidad </p> 
+                 <progress class="progress is-info" value="80" max="100"> 80% </progress> 
+
+                 <p class="has-text-white has-text-weight-bold"> Fuerza </p> 
+                 <progress class="progress is-info" value="75" max="100"> 75% </progress>
+
+                 <p class="has-text-white has-text-weight-bold"> Durabilidad </p> 
+                 <progress class="progress is-info" value="70" max="100"> 70% </progress> 
+
+                 <p class="has-text-white has-text-weight-bold"> Tecnología </p> 
+                 <progress class="progress is-info" value="98" max="100"> 98% </progress> 
+
+            </div> 
+        </div> 
+    </div> 
+</section>
+
+
+
+<section id="Atuendos" class="section">
+    <div class="container">
+        
+        <h2 class="title is-2 has-text-white has-text-centered">
+            ATUENDOS
+        </h2>
+
+        <div class="columns is-multiline">
+
+          
+            <div class="column is-half">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="atuendo1.jpg" alt="Atuendo de Batman 1">
+                        </figure>
+                    </div>
+                    <div class="card-content has-text-centered">
+                        <p class="title is-4 has-text-white">
+                            Batman clásico
+                        </p>
+                        <p class="subtitle is-6 has-text-grey-lighter">
+                            El traje original del Caballero de la Noche.
+                        </p>
+                        <button class="button is-info">
+                            Ver atuendo
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        
+            
+
+
+
+            <div class="column is-half">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="atuendo2.jpg" alt="Atuendo de Batman 2">
+                        </figure>
+                    </div>
+                    <div class="card-content has-text-centered">
+                        <p class="title is-4 has-text-white">
+                            Batman Armadura Pesada
+                        </p>
+                        <p class="subtitle is-6 has-text-grey-lighter">
+                            Armadura de combate táctico reforzada para enfrentamientos de alto impacto y defensa pesada.
+                        </p>
+                        <button class="button is-info">
+                            Ver atuendo
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            
+            <div class="column is-half">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="atuendo3.jpg" alt="Atuendo de Batman 3">
+                        </figure>
+                    </div>
+                    <div class="card-content has-text-centered">
+                        <p class="title is-4 has-text-white">
+                            Batman Cryo Freeze
+                        </p>
+                        <p class="subtitle is-6 has-text-grey-lighter">
+                            Traje criogénico adaptado con placas térmicas para entornos bajo cero y combate helado.
+                        </p>
+                        <button class="button is-info">
+                            Ver atuendo
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="column is-half">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="atuendo4.jpg" alt="Atuendo de Batman 4">
+                        </figure>
+                    </div>
+                    <div class="card-content has-text-centered">
+                        <p class="title is-4 has-text-white">
+                            Batman del Futuro
+                        </p>
+                        <p class="subtitle is-6 has-text-grey-lighter">
+                            Traje cibernético de alta tecnología con propulsores integrados y energía de plasma roja.
+                        </p>
+                        <button class="button is-info">
+                            Ver atuendo
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="column is-half">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="atuendo5.jpg" alt="Atuendo de Batman 5">
+                        </figure>
+                    </div>
+                    <div class="card-content has-text-centered">
+                        <p class="title is-4 has-text-white">
+                            Batman Shinobi Scraps
+                        </p>
+                        <p class="subtitle is-6 has-text-grey-lighter">
+                            Equipo de sigilo ninja ensamblado artesanalmente con materiales improvisados y calzado tabi.
+                        </p>
+                        <button class="button is-info">
+                            Ver atuendo
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        
+            
+
+
+
+            <div class="column is-half">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="atuendo6.jpg" alt="Atuendo de Batman 6">
+                        </figure>
+                    </div>
+                    <div class="card-content has-text-centered">
+                        <p class="title is-4 has-text-white">
+                            Batman Joker
+                        </p>
+                        <p class="subtitle is-6 has-text-grey-lighter">
+                            Traje contaminado e intervenido con la caótica estética del Guasón y grafiti psicodélico.
+                        </p>
+                        <button class="button is-info">
+                            Ver atuendo
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+                        
